@@ -1,8 +1,13 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
 
-export default function () {
+const style = {
+    height: 56,
+    width: 10
+}
+
+export default function ButtonAdd () {
     return (
-        <Button variant="outlined">add</Button>
+        <Button style={style} variant="outlined">add</Button>
     )
 }

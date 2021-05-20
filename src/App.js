@@ -1,6 +1,8 @@
 import './App.css';
-import InputToDo from './components/InputToDo'
-import ButtonAdd from './components/ButtonAdd'
+import InputToDo from './components/InputToDo';
+import ButtonAdd from './components/ButtonAdd';
+import ButtonSortByStatus from './components/ButtonSortByStatus';
+import ButtonSortByDate from './components/ButtonSortByDate';
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <div className='Input'>
         <InputToDo />
         <ButtonAdd />
-      </div>    
+      </div>
+        <ButtonSortByStatus />    
+        <ButtonSortByDate />  
     </div>
   );
 }
