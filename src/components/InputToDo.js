@@ -5,14 +5,16 @@ const style = {
     width:440
 }
 
-export default function InputToDo () {
-
+const InputToDo = () => {
+    
         return(
-            <TextField 
-            id="outlined-basic" 
-            label="Write your to do?" 
-            variant="outlined"
-            style={style}
-            />
+                <TextField 
+                    id="outlined-basic" 
+                    label="Write your to do?" 
+                    variant="outlined"
+                    style={style}
+            />            
         )
 }
+
+export default InputToDo;

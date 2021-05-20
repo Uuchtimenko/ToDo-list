@@ -2,7 +2,7 @@ import React from 'react';
 import { ButtonGroup, Button } from '@material-ui/core';
 
 const indent = {
-    margin: 10
+    margin: 20
 }
 
 export default function ButtonSortByDate () {
